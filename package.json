@@ -1,0 +1,17 @@
+{
+  "name": "ai-news-collector",
+  "version": "1.0.0",
+  "description": "AI应用方向信息搜集系统 MVP",
+  "main": "src/index.js",
+  "scripts": {
+    "collect": "node src/index.js",
+    "report": "node src/reporter.js",
+    "config": "node src/config.js"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.3.0",
+    "node-fetch": "^3.3.0",
+    "nodemailer": "^8.0.1"
+  },
+  "type": "module"
+}

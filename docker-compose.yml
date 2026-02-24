@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  ai-news-collector:
+    build: .
+    image: ai-news-collector:latest
+    container_name: ai-news-collector
+    environment:
+      # SMTP 邮件配置（必填）
+      - SMTP_HOST=${SMTP_HOST:-smtp.gmail.com}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASS=${SMTP_PASS}
+      
+      # 时区设置
+      - TZ=Asia/Shanghai
+    
+    volumes:
+      # 挂载输出目录，保留历史数据
+      - ./output:/app/output
+      
+      # 可选：挂载配置文件，方便修改 RSS 源
+      - ./src/config.js:/app/src/config.js:ro
+    
+    # 定时运行模式（使用 cron 语法）
+    # 每天早上 7:00 运行一次
+    command: >
+      sh -c "
+        echo '0 7 * * * cd /app && node src/daily-digest.js >> /app/output/cron.log 2>&1' > /etc/crontabs/root &&
+        crond -f
+      "
+    
+    # 如果使用外部 cron 触发，保留容器运行
+    # command: tail -f /dev/null
+    
+    restart: unless-stopped
+
+  # 可选：使用 Ofelia 作为外部定时任务调度器
+  # ofelia:
+  #   image: mcuadros/ofelia:latest
+  #   container_name: ai-news-ofelia
+  #   command: daemon --docker
+  #   volumes:
+  #     - /var/run/docker.sock:/var/run/docker.sock:ro
+  #   labels:
+  #     ofelia.job-run.ai-news-collector.schedule: "0 7 * * *"
+  #     ofelia.job-run.ai-news-collector.container: "ai-news-collector"
+  #     ofelia.job-run.ai-news-collector.command: "node src/daily-digest.js"

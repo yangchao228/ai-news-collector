@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-02-24T03:49:59.901Z",
+  "recentArticlesCount": 5,
+  "totalArticles": 138,
+  "groupedBySource": {
+    "Daniel Miessler": [
+      {
+        "title": "Why I Hate Anthropic and You Should Too",
+        "link": "https://danielmiessler.com/blog/why-you-should-hate-anthropic?utm_source=rss&utm_medium=feed&utm_campaign=website",
+        "description": "[![Why I Hate Anthropic and You Should Too](/images/why-you-should-hate-anthropic.webp)](/images/why-you-should-hate-anthropic.webp) All the best influencers hate Anthropic right now, and for good reason. They ruined everything, and they're worthy of every bit of hate they get. Quick recap: - T...",
+        "pubDate": "2026-02-23T22:45:00.000Z",
+        "author": "daniel@danielmiessler.com (Daniel Miessler)",
+        "source": "Daniel Miessler",
+        "sourceCategory": "AI基础设施/安全",
+        "priority": "high",
+        "content": "<html><head></head><body>[![Why I Hate Anthropic and You Should Too](/images/why-you-should-hate-anthropic.webp)](/images/why-you-should-hate-anthropic.webp) <!-- width=\"1126\" height=\"1136\" -->\n\nAll the best influencers hate Anthropic right now, and for good reason.\n\nThey ruined everything, and they're worthy of every bit of hate they get.\n\nQuick recap:\n\n- They came out with this new subscription model\n- People absolutely loved it\n- But it's a really bad business deal for them unless they're getting people to use Claude Code\n- **And they didn't make this clear enough!**\n- Then they pushed back on people who were just using the subscription bypass to API pricing in other products\n- Supposedly because \"it's not sustainable for Anthropic as a business\" if they didn't stop the bypass.\n\nLike I said, deplorable.\n\nAnd have you even seen Dario speak with reporters?\n\nLike, he doesn't make eye contact, and he talks really fast. \n\nI don't know. *I just don't like him.*\n\nIt's an absolute disgrace.\n\nThere's a bunch of rabid fanboys probably taking money from them, though, who ask dumb questions like this.\n\n&gt; Hey, but wait a minute.<br><br>Isn't Anthropic the company that has been talking the most about AI safety and preparing people for what is coming since their start?<br><br>Aren't they the ones who just said in Davos that it's fucking stupid to be giving the best models and the best AI chips to China when no one else has the courage to say that?<br><br>Didn't they just push back on the Pentagon for using their tools as weaponry?<br><br>Aren't they risking billions upon billions of dollars in contracts and potentially their company by doing this?\n\nLike I told you, it's super dumb.\n\nSure, they seem to be the most morally principled of the labs, and have been far more willing to show mistakes and sound the alarm on how disruptive AI is going to be.\n\nBut have you seen the other AI leaders talk? They're **very smooth and good-looking**, and they can make eye contact, and they're smiling all the time. Super pro. Very likeable.\n\nAnd their models are way cheaper! Like half as expensive!\n\nAll Dario does is prattle on about how \"You have to get ready for what's coming!\", and, \"Here's what we're doing to make this transition easier for humans.\", and, \"Hey government, you can't use our stuff for gross shit.\"\n\nNerdy, boring, and *not cool-sounding*.\n\n**And** they're fucking with my MAX subscription?\n\n**And** they have higher API prices?\n\nFuck them and their \"trying to help the world survive AI\" mission. I'm not Gandhi; I'm trying to build a SaaS app (URL below btw).\n\nI want Anthropic's product at other companies' prices, and I want to be able to use it how I want to use it.\n\nAnthropic owes me that.\n\nSo that's why I hate them and you should too.\n</body></html>"
+      }
+    ],
+    "量子位": [
+      {
+        "title": "“千问帮我”成春节新年俗：一句话下单更便捷 超400万60岁+用户体验AI下单",
+        "link": "https://www.qbitai.com/2026/02/381758.html",
+        "description": "全国用户说了50亿次“千问帮我”",
+        "pubDate": "2026-02-23T10:04:02.000Z",
+        "author": "量子位",
+        "source": "量子位",
+        "sourceCategory": "AI资讯",
+        "priority": "high",
+        "content": "全国用户说了50亿次“千问帮我”"
+      },
+      {
+        "title": "智谱GLM-5技术全公开！完全适配华为等国产芯片，美国网友酸了",
+        "link": "https://www.qbitai.com/2026/02/381712.html",
+        "description": "引入DeepSeek同款机制",
+        "pubDate": "2026-02-23T05:19:44.000Z",
+        "author": "量子位",
+        "source": "量子位",
+        "sourceCategory": "AI资讯",
+        "priority": "high",
+        "content": "引入DeepSeek同款机制"
+      },
+      {
+        "title": "32倍压缩率下性能反超25个点！破解长文本压缩「翻车」难题 &#124; ICLR 2026",
+        "link": "https://www.qbitai.com/2026/02/381689.html",
+        "description": "真正的高质量压缩不是简单的“删减”",
+        "pubDate": "2026-02-23T04:48:46.000Z",
+        "author": "量子位",
+        "source": "量子位",
+        "sourceCategory": "AI资讯",
+        "priority": "high",
+        "content": "真正的高质量压缩不是简单的“删减”"
+      },
+      {
+        "title": "三个和尚没水喝！OpenAI星际之门搁浅，一年过去压根没动工",
+        "link": "https://www.qbitai.com/2026/02/381672.html",
+        "description": "至今都还没把团队配齐，数据中心压根没开工",
+        "pubDate": "2026-02-23T04:41:01.000Z",
+        "author": "量子位",
+        "source": "量子位",
+        "sourceCategory": "AI资讯",
+        "priority": "high",
+        "content": "至今都还没把团队配齐，数据中心压根没开工"
+      }
+    ]
+  }
+}
